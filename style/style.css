@@ -27,6 +27,11 @@
 
 }
 
+.sec-layout{
+    margin-top: 72px;
+    margin-bottom:72px;
+}
+
 .title {
     font-size: 2.3rem;
     font-weight: 900;
@@ -170,9 +175,20 @@
 /* habit section end */
 
 
+/* run section start */
+.run-img{
+    width: 100%;
+    border-radius: 8px;
+}
 
-
-
+.run-container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    background-color:rgba(34, 34, 34, 1);
+    padding: 3rem;
+}
+/* run section end */
 
 
 
@@ -242,6 +258,17 @@
     .card-container{
         flex-direction: column;
         gap: 24px;
+    }
+
+
+    .run-container{
+        flex-direction: column;
+        gap: 3rem;
+        background-color:rgba(34, 34, 34, 1);
+        padding: 0.5rem;
+    }
+    .btn-primary{
+        width: 100%;
     }
 
 }
