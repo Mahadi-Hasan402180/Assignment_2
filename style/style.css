@@ -393,7 +393,7 @@ Add section ---------------------*/ .add-section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    background-image: url('/images/ex3.jpg');
+    background-image: url('/images/extra.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     
 }
