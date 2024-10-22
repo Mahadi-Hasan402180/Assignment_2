@@ -366,6 +366,7 @@ Add section ---------------------*/ .add-section {
     margin-bottom: 42px;
     color: #fff;
     margin-right: 116px;
+    
 }
 
 .add-text h2 span {
@@ -392,7 +393,9 @@ Add section ---------------------*/ .add-section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    background-image: url('/images/extra.jpg');
+    background-image: url('/images/ex3.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 
