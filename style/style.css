@@ -89,6 +89,10 @@
     color: #E6533C;
 }
 
+.img-in-banner{
+    position: relative;
+
+}
 
 .banner {
     align-items: center;
@@ -110,6 +114,7 @@
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 0.8rem;
     height: 5rem;
+    position: absolute;
 
 }
 
@@ -119,6 +124,7 @@
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 0.8rem;
     height: 5rem;
+    position: absolute;
 
 }
 
@@ -167,7 +173,7 @@
     font-size: 12px;
 }
 
-.card-container{
+.card-container-habit{
     display: flex;
     justify-content: space-around;
     
@@ -261,8 +267,61 @@
     width: 50%;
 }
 
+/* team section start */
+.t-img{
+    border-radius: 8px;
+    width:100%;
+    position: relative;
+    height: 350px;
+
+}
+.t-work{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+.t-name{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.posi-abs{
+    margin-left: 50px;
+    margin-top: -100px;
+    position: absolute;
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: rgba(243, 237, 237, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bmi-des{
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+/* team section end */
 
 
+/* footer start */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin: 20px 0;
+}
+/* footer end*/
 
 
 
@@ -330,7 +389,7 @@
         color: rgba(255, 255, 255, 0.5);
     }
 
-    .card-container{
+    .card-container-habit{
         flex-direction: column;
         gap: 24px;
     }
@@ -354,6 +413,16 @@
     }
     .your-bmi{
         width:auto;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+    .footer-container{
+      flex-direction: column;
     }
 
 }
