@@ -190,6 +190,81 @@
 }
 /* run section end */
 
+/* bmi start */
+
+.bmi-des{
+    text-align: center;
+    
+    
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #fcd5d5;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #000000;
+    font-weight: bold;
+  }
+  td{
+
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+
+/* for from */
+
+ 
+  
+  .grid-form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.1);
+    
+  }
+  
+  .full-width {
+    grid-column: span 2; 
+  }
+  
+.bmi-cointainer{
+    display: flex;
+    gap: 120px;
+    padding: 5rem;
+    
+}
+.your-bmi{
+    width: 50%;
+}
+
+
+
+
+
 
 
 
@@ -267,8 +342,18 @@
         background-color:rgba(34, 34, 34, 1);
         padding: 0.5rem;
     }
-    .btn-primary{
+    .btn-run{
         width: 100%;
+    }
+
+    .bmi-cointainer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 2px;
+        
+    }
+    .your-bmi{
+        width:auto;
     }
 
 }

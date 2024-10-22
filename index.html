@@ -114,12 +114,12 @@
       <div class="run-container">
         <div>
           <h1 class="title">Run an Extra <br> Mile Easily</h1>
-          <p class="p-text">We believe fitness should be accessible to everyone, 
-            everywhere, regardless of income or access to a gym. With 
+          <p class="p-text">We believe fitness should be accessible to everyone,
+            everywhere, regardless of income or access to a gym. With
             hundreds of professional workouts.</p>
-            <button class="btn-primary">Join Now</button>
+          <button class="btn-primary btn-run">Join Now</button>
         </div>
-  
+
         <div>
           <img class="run-img" src="./images/run.jpg" alt="">
         </div>
@@ -129,7 +129,78 @@
     <!-- run section end -->
 
     <!-- BMI section start -->
-    <section>
+    <section class="sec-layout">
+      <div class="bmi-des">
+        <h1 class="title">BMI Calculator</h1>
+        <p class="p-text">It's important to note that while BMI is a useful screening tool, it doesn't directly measure body fat, and factors.</p>
+      </div>
+
+      <div class="bmi-cointainer">
+
+        <div class="chart">
+
+          <h3 style="margin-bottom: 2rem;">BMI Calculator Chart</h3>
+
+          <table class="simple-table">
+            <thead>
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 29.9</td>
+                <td> Overweight</td>
+              </tr>
+              <tr>
+                <td>30.0 and Above </td>
+                <td>Obes</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="your-bmi">
+          <h3>Calculate your BMI</h3>
+          <p class="p-text">It's important to note that while BMI is a useful screening tool, it doesn't directly measure body fat, and factors.</p>
+
+            <form class="grid-form">
+
+              <div class="form-group">
+                <input type="text" id="height" placeholder="Height/cm" name="height">
+              </div>
+              <div class="form-group">
+                <input type="text" id="weight" placeholder="Weight/kg" name="weight">
+              </div>
+              <div class="form-group">
+                <input type="text" id="age" placeholder="Age" name="age">
+              </div>
+              <div class="form-group">
+                <input type="number" id="sex" placeholder="Sex" name="sex">
+              </div>
+              <div class="form-group full-width">
+                <textarea id="activity" placeholder="Select an activity factor" name="activity"></textarea>
+              </div>
+              
+              
+            </form>
+            
+            <button class="btn-primary btn-bmi">Calculate</button>
+
+        </div>
+
+      </div>
 
     </section>
     <!-- BMI section end -->
